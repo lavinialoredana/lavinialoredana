@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "SF-Pro-Display-Thin";
+    src: url('../assets/fonts/SF-Pro-Display-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/SF-Pro-Display-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../assets/fonts/SF-Pro-Display-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/SF-Pro-Display-Thin.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+  }
+  .logo-font {
+    font-family: "SF-Pro-Display-Thin";
+  }
+
 body {
     padding: 3rem;
 }
