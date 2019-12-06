@@ -33,6 +33,10 @@ header > nav > span {
   padding-right: 10px;
 }
 
+.active {
+  font-style: oblique;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -134,8 +138,11 @@ body > footer {
   .section1 > .profile-picture {
     width: 40%;
   }
-  section > img {
-    margin: 10rem;
+  .iconify {
+    width: 100%;
+    margin: 10rem 0;
+    font-size: 30px;
+    font-weight: 100;
   }
   .project-display-box {
     display: flex;

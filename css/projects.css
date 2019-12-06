@@ -32,6 +32,10 @@ header>nav>span {
 	padding-right: 10px;
 }
 
+.active {
+    font-style: oblique;
+}
+
 h1{
     font-size: 24px;
     font-weight: 500;

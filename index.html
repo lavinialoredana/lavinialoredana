@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/home.css" />
     <meta charset="UTF-8" />
@@ -31,7 +32,7 @@
       
       <span>Lavinia<br />Loredana</span>
       <nav>
-        <a href="./index.html"><span>home</span></a>
+        <a class="active" href="./index.html"><span>home</span></a>
         <a href="./html/projects.html"><span>portfolio</span></a>
         <a href="./html/about.html"><span>about</span></a>
       </nav>
@@ -39,39 +40,47 @@
 
     <main>
       <section>
-        <div class="section1">
-          <img
-            class="profile-picture"
-            src="assets/profile-picture.jpg"
-            alt=""
-          />
-          <div>
-            <h1>Product Designer</h1>
-            <p>
-              Let us have a conversation or we can walk if you don’t mind a
-              little rain.
-            </p>
-          </div>
-        </div>
+        <a href="">
+            <div class="section1">
+              <img
+                class="profile-picture"
+                src="assets/profile-picture.jpg"
+                alt=""
+              />
+              <div>
+                <h1>Product Designer</h1>
+                <p>
+                        Let’s walk and talk if don’t mind a little sun. Studies show that people who sweat together connect better!
+                </p>
+              </div>
+            </div>
+        </a>
 
-        <img src="assets/Arrow-down.svg" alt="Scroll down" />
+        <a href="#example">
+            <span class="iconify" id="example" data-icon="simple-line-icons:arrow-down" data-inline="false"></span>
+        </a>
+        
       </section>
 
+      <a href="./html/projects.html#project1">
       <section class="project-display-box">
-        <div>
-          <h1>friendly COworkers</h1>
-          <span>LOREM IPSUM <br />2019</span>
-        </div>
-        <img src="assets/mockup-mobile.jpg" alt="icon Capstone" />
-      </section>
+            <div>
+              <h1>friendly COworkers</h1>
+              <span>LOREM IPSUM <br />2019</span>
+            </div>
+            <img src="assets/mockup-mobile.jpg" alt="icon Capstone" />
+        </section>
+    </a>
 
-      <section class="project-display-box">
-        <div>
-          <h1>Capstone</h1>
-          <span>LOREM IPSUM <br />2019</span>
-        </div>
-        <img src="assets/mockup-mobile.jpg" alt="icon Capstone" />
-      </section>
+      <a href="">
+          <section class="project-display-box">
+            <div>
+              <h1>Capstone</h1>
+              <span>LOREM IPSUM <br />2019</span>
+            </div>
+            <img src="assets/mockup-mobile.jpg" alt="icon Capstone" />
+          </section>
+      </a>
     </main>
     <footer>Scroll up</footer>
   </body>
