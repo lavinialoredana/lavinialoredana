@@ -206,4 +206,8 @@ section p{
         flex-direction: row-reverse;
         text-align: right;
     }
+
+    .image-content img {
+        align-self: end;
+    }
 }
