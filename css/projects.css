@@ -48,6 +48,49 @@ h1{
     margin-top: 20px;
 }
 
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.video-container video {
+    margin: 20px 0;
+}
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-text {
+
+}
+
+.video-button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 25px;
+    
+    
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.video-button:nth-child(2) {
+    margin: 40px 0;
+
+}
+
+.video-button:hover, .video-button:active {
+    color: #ac35b9;
+    background-color: white;
+    border: 1px solid #ac35b9;
+}
+
 .extra-margin {
     margin-top: 5rem;
 }

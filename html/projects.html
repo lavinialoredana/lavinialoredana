@@ -58,11 +58,22 @@
                 experience anxiety when thinking about approaching someone on the hallway,
                 in the elevator or in the communal kitchen.
             </p>
-            <!-- <p>friendly COworkers has two main goals:</p>  -->
-            <!-- <ol> -->
-            <!-- <li> xxxxxxx</li> -->
-            <!-- <li>xxxxxxxx</li> -->
-            <!-- </ol> -->
+
+            <div class="video-container">
+                <div class="video-section">
+                    <div class="video-text">According to physiotherapists, the intensity of pain is not the most important thing but how long has your muscle ached and if there has been something that has caused or aggravated it.</div>
+                    <video id="firstVideo" width="auto" height="240" controls>
+                        <source src="../assets/Videos/IMG_3880.mov" type="video/mp4">
+                        <!-- <source src="movie.ogg" type="video/ogg"> -->
+                        <!-- Your browser does not support the video tag. -->
+                    </video>
+                </div>
+                <div>
+                    <div id="buttonPlayFirstVideo" class="video-button">SEE HOW IT WORKS</div>
+                    <div class="video-button">CHECK THE PROTOTYPE</div>
+                </div>
+            </div>
+
         </section>
 
         <section>
@@ -207,11 +218,7 @@
                 The Cure is an app for budgeting and better structuring those monthly lifestyle expenses that make you
                 feel guilty as you go off track.
             </p>
-            <!-- <p>friendly COworkers has two main goals:</p>  -->
-            <!-- <ol> -->
-            <!-- <li> xxxxxxx</li> -->
-            <!-- <li>xxxxxxxx</li> -->
-            <!-- </ol> -->
+
         </section>
 
         <section>
@@ -407,3 +414,21 @@
         </section>
     </main>
 </body>
+
+<script>
+    var videoPlayer = document.getElementById('firstVideo');
+    var buttonPlayFirstVideo = document.getElementById('buttonPlayFirstVideo');
+
+    // Play / pause.
+    buttonPlayFirstVideo.addEventListener('click', function () {
+        if (videoPlayer.paused == false) {
+            videoPlayer.pause();
+            console.log('holar')
+            videoPlayer.firstChild.nodeValue = 'Play';
+        } else {
+            console.log('holar')
+            videoPlayer.play();
+            videoPlayer.firstChild.nodeValue = 'Pause';
+        }
+    });
+</script>
